@@ -21,7 +21,8 @@ public class Demo{
         }
 
         for(int i = 0; i < customers.size(); i++){
-            System.out.println(customers.get(i).getFullName());
+            // customers.get(i).setName();
+            System.out.println(customers.get(i).toString());
         }
 
         // PersonAdapter personAdapter1 = new PersonAdapter(person1);

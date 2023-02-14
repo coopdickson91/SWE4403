@@ -16,7 +16,15 @@ public class PersonAdapter extends Customer{
 
     public String getFullName(){
         return getLast() + " " + getFirst();
+        // super.setFullName(getLast(), getFirst());
     }
+
+    @Override
+    public String toString() {
+      return "Customer [last name= " + getLast() + " first name= " + getFirst() + "]";
+   }
+
+    
 
     
 
