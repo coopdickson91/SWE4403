@@ -21,7 +21,6 @@ public class Demo{
         }
 
         for(int i = 0; i < customers.size(); i++){
-            // customers.get(i).setName();
             System.out.println(customers.get(i).toString());
         }
 
